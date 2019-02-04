@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.white-container {
+  background-color: #fff;
+}
+
+.light-purple-container {
+  background-color: #CBC0D3;
+  margin: 0;
+  padding: 0;
+}
+
+.light-blue-container {
+  background-color: #DEE2FF;
+}
+
+.inner {
+  max-width: 940px;
+  padding: 4em 25px;
+  margin: 0 auto;
+}
+
+.dark-purple {
+  color: #8E9AAF;
+}
+
+.white {
+  color: #fff;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+img {
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px #8E9AAF;
+  max-width: 100%;
+}
+
+.circle {
+  background-color: #EFD3D7;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px #8E9AAF;
+}
+
+.right {
+  float: right;
+  margin: 0 0 0 35px;
+}
+
+.left {
+  float: left;
+  margin: 0 35px 0 0;
+}
+
+.number {
+  color: #fff;
+  text-shadow: 1px 1px #8E9AAF;
+  font-size: 45px;
+  padding: 20px 35px;
+  font-weight: bold;
+}
+
+.button {
+  color: #fff;
+  background-color: #EFD3D7;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 1px 1px 1px 1px #8E9AAF;
+  width: 100%;
+  text-align: center;
+}
+
+.button-inner {
+  text-shadow: 1px 1px 1px #8E9AAF;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 5px 45px 25px 25px;
+}
+
+.feature-section {
+  display: flex;
+}
+
+.feature-text {
+  width: 50%;
+}
+
+.feature-photo {
+  padding-top: 45px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.robo-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.robo-text {
+  width: 50%;
+}
+
+.robo-photo {
+  padding: 0 25px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  
+  .robo-container {
+    flex-direction: column;
+  }
+  
+  .robo-text {
+    width: 100%;
+  }
+
+}
